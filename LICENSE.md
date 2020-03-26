@@ -1,7 +1,7 @@
 MIT License (MIT)
 
 Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)  
-Copyright (C) 2016-present Sven Greb <development@svengreb.de> (https://www.svengreb.de)
+Copyright (C) 2016-present Sven Greb <development@svengreb.de> (https://www.svengreb.de)  
 Copyright (C) 2020-present Roy-Orbison <Roy-Orbison@users.noreply.github.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
