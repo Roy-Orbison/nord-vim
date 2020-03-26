@@ -2,7 +2,7 @@
 " Copyright (C) 2016-present Sven Greb <development@svengreb.de>
 
 " Project: Nord Vim
-" Repository: https://github.com/arcticicestudio/nord-vim
+" Repository: https://github.com/Roy-Orbison/nord-vim-256
 " License: MIT
 
 let s:nord_vim_version="0.17.0"
@@ -25,37 +25,37 @@ let s:nord13_gui = "#EBCB8B"
 let s:nord14_gui = "#A3BE8C"
 let s:nord15_gui = "#B48EAD"
 
-let s:nord0_term = "NONE"
-let s:nord1_term = "0"
-let s:nord2_term = "NONE"
-let s:nord4_term = "NONE"
-let s:nord11_term = "1"
-let s:nord14_term = "2"
-let s:nord13_term = "3"
-let s:nord9_term = "4"
-let s:nord15_term = "5"
-let s:nord8_term = "6"
-let s:nord5_term = "7"
-let s:nord3_term = "8"
-let s:nord12_term = "11"
-let s:nord10_term = "12"
-let s:nord7_term = "14"
-let s:nord6_term = "15"
+let s:nord0_term = '236'
+let s:nord1_term = '237'
+let s:nord2_term = '238'
+let s:nord3_term = '239'
+let s:nord4_term = '253'
+let s:nord5_term = '254'
+let s:nord6_term = '255'
+let s:nord7_term = '109'
+let s:nord8_term = '111'
+let s:nord9_term = '110'
+let s:nord10_term = '68'
+let s:nord11_term = '167'
+let s:nord12_term = '173'
+let s:nord13_term = '179'
+let s:nord14_term = '150'
+let s:nord15_term = '139'
 
 let s:NMain = [s:nord1_gui, s:nord8_gui, s:nord1_term, s:nord8_term]
 let s:NRight = [s:nord1_gui, s:nord9_gui, s:nord1_term, s:nord9_term]
 let s:NMiddle = [s:nord5_gui, s:nord3_gui, s:nord5_term, s:nord3_term]
-let s:NWarn = [s:nord1_gui, s:nord13_gui, s:nord3_term, s:nord13_term]
-let s:NError = [s:nord0_gui, s:nord11_gui, s:nord1_term, s:nord11_term]
+let s:NWarn = [s:nord1_gui, s:nord13_gui, s:nord1_term, s:nord13_term]
+let s:NError = [s:nord0_gui, s:nord11_gui, s:nord0_term, s:nord11_term]
 let g:airline#themes#nord#palette.normal = airline#themes#generate_color_map(s:NMain, s:NRight, s:NMiddle)
 let g:airline#themes#nord#palette.normal.airline_warning = s:NWarn
 let g:airline#themes#nord#palette.normal.airline_error = s:NError
 
-let s:IMain = [s:nord1_gui, s:nord14_gui, s:nord1_term, s:nord6_term]
+let s:IMain = [s:nord1_gui, s:nord14_gui, s:nord1_term, s:nord14_term]
 let s:IRight = [s:nord1_gui, s:nord9_gui, s:nord1_term, s:nord9_term]
 let s:IMiddle = [s:nord5_gui, s:nord3_gui, s:nord5_term, s:nord3_term]
-let s:IWarn = [s:nord1_gui, s:nord13_gui, s:nord3_term, s:nord13_term]
-let s:IError = [s:nord0_gui, s:nord11_gui, s:nord1_term, s:nord11_term]
+let s:IWarn = [s:nord1_gui, s:nord13_gui, s:nord1_term, s:nord13_term]
+let s:IError = [s:nord0_gui, s:nord11_gui, s:nord0_term, s:nord11_term]
 let g:airline#themes#nord#palette.insert = airline#themes#generate_color_map(s:IMain, s:IRight, s:IMiddle)
 let g:airline#themes#nord#palette.insert.airline_warning = s:IWarn
 let g:airline#themes#nord#palette.insert.airline_error = s:IError
@@ -63,8 +63,8 @@ let g:airline#themes#nord#palette.insert.airline_error = s:IError
 let s:RMain = [s:nord1_gui, s:nord14_gui, s:nord1_term, s:nord14_term]
 let s:RRight = [s:nord1_gui, s:nord9_gui, s:nord1_term, s:nord9_term]
 let s:RMiddle = [s:nord5_gui, s:nord3_gui, s:nord5_term, s:nord3_term]
-let s:RWarn = [s:nord1_gui, s:nord13_gui, s:nord3_term, s:nord13_term]
-let s:RError = [s:nord0_gui, s:nord11_gui, s:nord1_term, s:nord11_term]
+let s:RWarn = [s:nord1_gui, s:nord13_gui, s:nord1_term, s:nord13_term]
+let s:RError = [s:nord0_gui, s:nord11_gui, s:nord0_term, s:nord11_term]
 let g:airline#themes#nord#palette.replace = airline#themes#generate_color_map(s:RMain, s:RRight, s:RMiddle)
 let g:airline#themes#nord#palette.replace.airline_warning = s:RWarn
 let g:airline#themes#nord#palette.replace.airline_error = s:RError
@@ -72,8 +72,8 @@ let g:airline#themes#nord#palette.replace.airline_error = s:RError
 let s:VMain = [s:nord1_gui, s:nord7_gui, s:nord1_term, s:nord7_term]
 let s:VRight = [s:nord1_gui, s:nord9_gui, s:nord1_term, s:nord9_term]
 let s:VMiddle = [s:nord5_gui, s:nord3_gui, s:nord5_term, s:nord3_term]
-let s:VWarn = [s:nord1_gui, s:nord13_gui, s:nord3_term, s:nord13_term]
-let s:VError = [s:nord0_gui, s:nord11_gui, s:nord1_term, s:nord11_term]
+let s:VWarn = [s:nord1_gui, s:nord13_gui, s:nord1_term, s:nord13_term]
+let s:VError = [s:nord0_gui, s:nord11_gui, s:nord0_term, s:nord11_term]
 let g:airline#themes#nord#palette.visual = airline#themes#generate_color_map(s:VMain, s:VRight, s:VMiddle)
 let g:airline#themes#nord#palette.visual.airline_warning = s:VWarn
 let g:airline#themes#nord#palette.visual.airline_error = s:VError
@@ -85,8 +85,8 @@ if g:nord_uniform_status_lines == 0
 else
   let s:IAMiddle = [s:nord5_gui, s:nord3_gui, s:nord5_term, s:nord3_term]
 endif
-let s:IAWarn = [s:nord1_gui, s:nord13_gui, s:nord3_term, s:nord13_term]
-let s:IAError = [s:nord0_gui, s:nord11_gui, s:nord1_term, s:nord11_term]
+let s:IAWarn = [s:nord1_gui, s:nord13_gui, s:nord1_term, s:nord13_term]
+let s:IAError = [s:nord0_gui, s:nord11_gui, s:nord0_term, s:nord11_term]
 let g:airline#themes#nord#palette.inactive = airline#themes#generate_color_map(s:IAMain, s:IARight, s:IAMiddle)
 let g:airline#themes#nord#palette.inactive.airline_warning = s:IAWarn
 let g:airline#themes#nord#palette.inactive.airline_error = s:IAError

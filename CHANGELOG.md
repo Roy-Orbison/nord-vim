@@ -1,10 +1,16 @@
 <p align="center"><a href="https://www.nordtheme.com/ports/vim" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/vim/repository-hero.svg?sanitize=true"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-vim/releases/latest" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/nord-vim.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/vim" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/release/arcticicestudio/nord-vim.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
-
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/vim" target="_blank" rel="noreferrer">Nord Vim</a> — An arctic, north-bluish clean and elegant <a href="https://www.vim.org" target="_blank" rel="noreferrer">Vim</a> color theme.</p>
 
 <!--lint disable no-duplicate-headings-->
+
+# 0.17.1-beta.1
+
+![Release Date: 2021-08-10](https://img.shields.io/badge/Release_Date-2021--08--10-88C0D0.svg?style=flat-square)
+
+## Improvements
+
+**Update support for 256 colour terminals** — [#162](https://github.com/arcticicestudio/nord-vim/issues/162)
 
 # 0.17.0
 
@@ -229,6 +235,14 @@ This provides, among many other good changes, better highlighting for syntax ele
 <p align="center"><img src="https://user-images.githubusercontent.com/7836623/84664806-58fc5400-af1f-11ea-9fc9-c05264cca064.png" /></p>
 <p align="center"><strong>After</strong></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/7836623/84664799-57cb2700-af1f-11ea-9099-75eba70fad36.png" /></p>
+
+# 0.13.1
+
+![Release Date: 2020-03-27](https://img.shields.io/badge/Release_Date-2020--03--27-88C0D0.svg?style=flat-square)
+
+## Features
+
+**Support 256 colour terminals** — [#162](https://github.com/arcticicestudio/nord-vim/issues/162)
 
 # 0.13.0
 
