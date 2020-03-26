@@ -2,7 +2,7 @@
 " Copyright (C) 2016-present Sven Greb <development@svengreb.de>
 
 " Project: Nord Vim
-" Repository: https://github.com/arcticicestudio/nord-vim
+" Repository: https://github.com/Roy-Orbison/nord-vim-256
 " License: MIT
 
 let s:nord_vim_version="0.13.0"
