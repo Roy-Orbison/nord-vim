@@ -34,7 +34,7 @@ let s:nord13_gui = "#EBCB8B"
 let s:nord14_gui = "#A3BE8C"
 let s:nord15_gui = "#B48EAD"
 
-let s:nord0_term = '236'
+let s:nord0_term = ''
 let s:nord1_term = '237'
 let s:nord2_term = '238'
 let s:nord3_term = '239'
